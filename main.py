@@ -1,4 +1,10 @@
 # main.py
+from setup import install_dependencies
+# Check and install dependencies
+print("Checking and installing dependencies...")
+install_dependencies()
+
+
 from plotting import plot_metrics, plot_generated_images
 from model import model_bench
 from utils import load_images_from_directory_parallel,  find_latest_file
@@ -6,10 +12,6 @@ import argparse
 import yaml
 import os
 import random
-from setup import install_dependencies
-# Check and install dependencies
-print("Checking and installing dependencies...")
-install_dependencies()
 
 
 def main(spec):
