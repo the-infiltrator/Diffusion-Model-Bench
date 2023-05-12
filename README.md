@@ -1,4 +1,5 @@
-# 🎨 Diffusion Model Bench: Your Img2Img Diffusion Playground! 🖼️
+# 🎨 Diffusion Model Bench: Your Img2Img Diffusion Playground! 🖼️ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cqN1Ip5bT-v1Bo8_VuOQ42NmtERDViFY?usp=sharing)
+
 <p align="center">
 <img src="https://github.com/the-infiltrator/Diffusion-Model-Bench/blob/main/preview.png" width="600">
 </p>
