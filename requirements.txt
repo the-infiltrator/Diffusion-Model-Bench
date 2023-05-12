@@ -1,0 +1,15 @@
+diffusers
+transformers
+scipy
+ftfy
+accelerate
+torchvision
+triton
+matplotlib
+huggingface_hub
+tqdm
+seaborn
+pandas
+scikit-learn
+Pillow
+pyyaml

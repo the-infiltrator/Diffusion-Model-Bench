@@ -1,0 +1,34 @@
+# The file containing the list of model names to be used
+model_file: '/content/drive/MyDrive/img2img/model_names.txt'
+
+# The directory where the input images are stored
+image_dir: '/content/drive/MyDrive/img2img/images'
+
+# The directory where the generated images will be stored
+generated_dir: '/content/drive/MyDrive/img2img/generated_images'
+
+# The prompt for the image generation
+prompt: 'A beautiful painting of a singular lighthouse, shining its light across a tumultuous sea of blood by Greg Rutkowski and Thomas Kinkade, Trending on Artstation'
+
+# The device to run the model on (usually "cuda" for GPU or "cpu")
+device: 'cuda'
+
+# Whether to use the TensorFloat32 (TF32) mode for faster but slightly less accurate computations
+tf32: false
+
+# The file containing the metrics from a previous run only for plotting a different run than latest, or null if none
+metrics_file: null
+
+# Whether to only plot the metrics and images, without running the model
+plot_only: false
+
+# Parameters for the model
+model:
+  # The strength of the transformation
+  strength: 1
+
+  # The scale of the guidance
+  guidance_scale: 7.5
+
+  # The number of steps to perform during inference
+  num_inference_steps: 25
