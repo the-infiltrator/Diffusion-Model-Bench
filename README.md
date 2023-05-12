@@ -1,6 +1,8 @@
 # 🎨 Diffusion Model Bench: Your Img2Img Diffusion Playground! 🖼️
+<p align="center">
+<img src="https://github.com/the-infiltrator/Diffusion-Model-Bench/blob/main/preview.png" width="600">
+</p>
 
-![Preview Image](/path/to/preview_image.png)
 *The image above illustrates an example of input to output transformation using our Img2Img Bench.*
 
 ## 📚 Introduction
@@ -79,8 +81,35 @@ model:
   num_inference_steps: 25
 ```
 
+### Requirements 🛠️
 
+Before you can start transforming images like a pro, make sure you have these packages installed which is super easy through the `install_dependecies` function in `setup.py` which will automatically check and install all dependencies everytime you run the code:
+
+- diffusers
+- transformers
+- scipy
+- ftfy
+- accelerate
+- torchvision
+- triton
+- matplotlib
+- huggingface_hub
+- tqdm
+- seaborn
+- pandas
+- scikit-learn
+- Pillow
+- pyyaml
 ## 📊 Output & Results
+
+
+Below you can find the visualization of the performance metrics obtained by running the bench.
+
+<p align="center">
+<img src="https://github.com/the-infiltrator/Diffusion-Model-Bench/blob/main/plots/metrics_plot.png?raw=true" width="1000">
+</p>
+
+*The image above showcases the performance metrics outputted by our Img2Img Bench for various diffusion models.*
 
 Your experiment results are neatly organized into directories:
 
@@ -110,37 +139,13 @@ The Diffusion Model Bench (DMB) is designed to be fast, efficient, and scalable.
 
 9. **Memory Management**: To further optimize memory utilization, `gc.collect()` and `torch.cuda.empty_cache()` are used after every inference run. This helps free up unused memory and ensures that our GPU utilization remains low.
 
-These performance improvements are all about ensuring that you can transform as many images as quickly as possible without overloading your system's resources. Happy transforming! 🎉
+These performance improvements are all about ensuring that you can transform as many images as quickly as possible without overloading your system's resources.
 
 
-## Requirements 🛠️
-
-Before you can start transforming images like a pro, make sure you have these packages installed:
-
-- diffusers
-- transformers
-- scipy
-- ftfy
-- accelerate
-- torchvision
-- triton
-- matplotlib
-- huggingface_hub
-- tqdm
-- seaborn
-- pandas
-- scikit-learn
-- Pillow
-- pyyaml
+### Happy Diffusing! 🎉
 
 
-## Visualizing Metrics 📊
 
-Below you can find the visualization of the performance metrics of our model.
 
-![Metrics Image](/path/to/metrics_image.png)
 
-*The image above showcases the performance metrics of our Img2Img Bench.*
-
-Have fun experimenting! 🎉
 
